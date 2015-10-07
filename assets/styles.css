@@ -1,0 +1,32 @@
+.foo,
+.bar,
+.baz {
+  border-radius: 50%;
+  position: absolute;
+  background-color: maroon;
+  cursor: move;
+}
+
+.foo {
+  width: 100px;
+  height: 100px;
+}
+
+.bar {
+  width: 60px;
+  height: 60px;
+  margin: 20px 0 0 20px;
+}
+
+.baz {
+  width: 30px;
+  height: 30px;
+  margin: 35px 0 0 35px;
+  transition: transform .3a linear;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -99999px;
+  top: -99999px;
+}
